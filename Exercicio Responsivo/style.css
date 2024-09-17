@@ -1,0 +1,165 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    background: #f7f7f7;
+    display: grid;
+    gap: 60px;
+    justify-items: center;
+    margin-top: 60px;
+}
+
+.header{
+    display: grid;  
+    gap: 60px;
+    justify-items: center;
+}
+
+p{
+    font-size: 1.25rem;
+    line-height: 1.2;
+}
+
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.menu{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.menu a{
+    margin: 0px;
+    display: block;
+    color: black;
+    text-decoration: none;
+    background: white;
+    padding: 1rem 2rem;
+    border-radius: 4px;
+    text-transform: uppercase;
+    border: solid transparent 2px;
+    
+}
+
+.menu a:hover{
+    border: solid #ee2211 2px;
+}
+
+.conteudo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1000px;
+    
+}
+
+
+
+.produto{
+    background: #fff;
+    text-align: right;
+    padding: 40px;
+    display: grid;
+    align-content: center;
+    gap: 20px;
+    justify-items: end;
+    position: relative;
+    
+}
+
+.produto::before{
+    content: "";
+    width: 60px;
+    height: 4px;
+    background: #ee2211;
+    position: absolute;
+    top: 30px;
+    right: -30px;
+} 
+
+.vejamais{
+    text-decoration: none;
+    background-color: #ee2211;
+    padding: 1rem 2rem;
+    color: white;
+    text-transform: uppercase;
+}
+
+.vejamais:hover{
+    background-color: #900;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+    
+}
+
+.cover-bike img{
+    object-fit: cover;    
+    height: 100%;
+}
+
+.terceiroquadrante{
+    font-size: 64px;
+    text-align: right;
+    color: rgba(0, 0, 0, .2);
+    padding: 40px;
+    align-self: center;
+}
+
+.vantagens{
+    padding: 20px;
+    background-color: #fff;
+}
+
+.vantagens-itens{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 10px 30px;
+    padding: 20px;    
+    
+}
+
+.vantagens :nth-child(odd){
+    background-color: #f7f7f7;
+}
+
+.vantagens-itens:hover{
+    border-left: 4px solid #ee2211; 
+}
+
+.rodape{
+    font-size: 2rem;
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    padding: 30px 0px;
+}
+
+@media (max-width: 600px){
+    .produto::before{
+        content: none;
+    }
+    body{ 
+        gap:30px;
+        margin-top: 30px;
+    }
+    .terceiroquadrante{
+        text-align: center;
+    }
+}
+@media (max-width: 1000px){
+    .conteudo-vantagens{
+        grid-template-columns: 1fr;
+    }
+}
+@media (max-width: 600px){
+    .conteudo{
+        grid-template-columns: 1fr;
+    }
+    
+}
