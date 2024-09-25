@@ -1,0 +1,26 @@
+@import"/css/global.css";
+@import"/css/introduçao.css";
+@import"/css/cabeçalho.css";
+@import"/css/experiencia.css";
+@import"/css/formaçao.css";
+@import"/css/contato.css";
+a{
+    text-decoration: none;
+}
+
+.subtitulo{
+    font-size: 8rem;
+    line-height: 1;
+    text-transform: uppercase;
+    word-break: break-all;
+    max-width: 4ch;
+}
+
+@media (max-width: 800px){
+    .subtitulo{
+        font-size: 3rem;
+        text-transform: capitalize;
+        max-width: initial;
+    }
+}
+

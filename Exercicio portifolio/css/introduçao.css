@@ -1,0 +1,33 @@
+img{
+    max-width: 100%;
+    display: block;
+}
+
+.introduçao{
+    max-width: 1200px;
+    padding: 20px 40px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 25px;
+    align-items: center;
+}
+
+.texto-introduçao h1{
+font-size: 4.5rem;
+line-height: 1.125;    
+margin-bottom: 30px;
+position: relative;
+}
+
+.texto-introduçao::before{
+    content: "";
+    display: block;
+    width: 7px;
+    height: 40px;
+    background: linear-gradient(#b6f829, #67dd0a);
+    position: absolute;
+    top: 200px;
+    left: 480px;
+    
+}
