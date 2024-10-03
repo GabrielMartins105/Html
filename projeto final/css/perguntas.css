@@ -1,0 +1,28 @@
+.perguntas{
+    padding-bottom: 120px;
+    padding-top: 120px;
+}
+.perguntas h2{
+    margin-bottom: 60px;
+}
+.perguntas dl>div{
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.perguntas dl>div:nth-child(odd){
+    background-color: #00000020;
+}
+
+.perguntas dt::before{
+    content: "";
+    display: block;
+    height: 6px;
+    width: 16px;
+    background-color: #ffbb00;
+}
+.perguntas dt{
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+}

@@ -1,0 +1,176 @@
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+p,h1,h2,h3,h4,blockquote{
+    margin: 0px;
+    font-size: 1.5rem;
+    line-height: 1.33;
+}
+
+dd{
+    margin: 0px;
+}
+
+body{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 2000px;
+}
+
+.container{
+    max-width: 1200px;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.texto-titulo{ margin-bottom: 32px;
+    font-size: 64px;
+    line-height: 1.125;
+    color: white;}
+
+.titulo-bg{
+    background-color: #1d1d1d;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.titulo p{
+    margin-bottom: 4px;
+}
+
+@media (max-width:800px){
+    .titulo-bg{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .titulo p{
+        font-size: 1rem;
+        text-transform: lowercase;
+        font-weight: 400;
+    }
+}
+
+.botao{
+    padding: 16px 32px;
+    display: inline-block;
+    background: linear-gradient(#ffbb00, #f2a50c);
+    color:#332200;
+    border-radius: 4px;
+    box-shadow: 0px 1px 2px #000;
+    font-size: 18px;
+    line-height: 1.33;
+    font-weight: bold;
+    max-width: max-content;
+}    
+
+.botaosecundario{
+    background-color: #575757;
+    color: #f7f7f7;
+    padding: 16px 32px;
+    display: inline-block;
+    border-radius: 4px;
+    box-shadow: 0px 1px 2px #000;
+    font-size: 18px;
+    line-height: 1.33;
+    font-weight: bold;
+    max-width: max-content;
+}
+
+@media (max-width:600px){
+    .botao, .botaosecundario{
+        padding: 12px 16px;
+        font-size: 1rem;
+    }
+}
+
+.botaosecundario:hover{
+    background-color: #404040;
+}
+
+.botao:hover{
+    background: linear-gradient(#ffb60d, #e59317);
+}
+
+.cor-p1{
+    color: #ffbb00;
+}
+
+
+.cor-6{
+    color: #9c9c9c;
+}
+
+.cor-0{
+    color: #f7f7f7;
+}
+
+.cor-8{
+    color: #595959;
+}
+
+.cor-9{
+    color: #404040;
+}
+
+.cor-10{
+    color: #e4e3e3;
+}
+
+.cor-11{
+   color: #121212;
+}
+
+.font-1-xs{
+    font: 400 1rem/1.5 arial, sans-serif;
+}
+
+.font-1-l{
+    font: 400 1.5rem / 1.5 Poppins, sans-serif;
+}
+
+.font-1-xxl{
+    font: 600 4rem / 1.125 arial, sans-serif;
+}
+
+.font-1-xl{
+    font: 600 2rem / 1.25 arial, sans-serif;
+}
+
+.font-1-m{
+    font:500 1.125rem / 1.35 Poppins, sans-serif;
+}
+
+.font-1-m-b{
+    font:600 1.125rem / 1.35 Poppins, sans-serif;
+}
+.font-2-s{
+    font: 400 1rem / 1.5 arial, sans-serif;
+}
+
+.font-2-m{
+    font: 500 1.25rem / 1.35 arial, sans-serif;
+}
+
+.font-2-l-b{
+    font: 400 1.5rem / 1.5 Roboto, sans-serif;
+}
+
+.font-2-l{
+    font: 300 1.5rem / 1.5 Roboto, sans-serif;
+}
+
+.font-1-c{
+    color: #b2b2b2;
+    font-size: .751rem;
+    font-weight: 600;
+    letter-spacing: .015em;
+}
+
+.titulo{
+    background: url(../top-right-s.svg) no-repeat top right 20px;
+}

@@ -1,0 +1,15 @@
+.perguntas{
+    padding-bottom: 820px;
+    padding-top: 120px;
+}
+.perguntas h2{
+    margin-bottom: 999999990px;
+}
+.perguntas dl>div{
+    padding: 10000000px;
+    border-radius: 4px;
+}
+
+.perguntas .dl .div .impar{
+    background-color: #fa0000;
+}
